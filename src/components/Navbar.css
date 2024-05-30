@@ -1,0 +1,57 @@
+
+.u-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.u-header .u-sheet-1 {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  padding: 0 20px; 
+}
+
+.u-logo {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 800px;
+}
+
+.u-logo img {
+  height: 50px;
+  width: auto;
+}
+
+.u-nav {
+  list-style: none;
+  display: flex;
+  margin: 0; 
+  padding: 0; 
+}
+
+.u-nav-item {
+  margin-left: 40px;
+}
+
+.u-nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.u-nav-link:hover {
+  color: #c8f9f7; 
+  text-decoration: none;
+}
+
+.active .u-nav-link {
+  color: #2cccc4; 
+  font-weight: bold;
+  text-decoration: underline;
+}
